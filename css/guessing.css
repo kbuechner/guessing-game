@@ -62,7 +62,7 @@ input:focus {
     border: 3px solid #235275;
 }
 
-.button {
+button {
     cursor: pointer;
     outline: none;
 
@@ -74,20 +74,23 @@ input:focus {
     background-color: #4F7192;
     color: #D8E2Ec;
 
-    padding: 10px 20px;
+    padding: 10px 10px;
 
     text-align: center;
     text-decoration: none;
 
     font-size: 20px;
 }
-
 .button2 {
 
     background-color: #D8E2Ec;
     color: #4F7192;
 
-    font-size: 15px;
+    font-size: 20px;
+}
+.button2:hover{
+    background-color: #9DB3C8;
+    color: #D8E2Ec;
 }
 
 button:hover{
