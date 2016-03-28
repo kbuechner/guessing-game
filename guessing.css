@@ -1,33 +1,84 @@
 
+/* Palette URL: http://paletton.com/#uid=13-0u0kaVz84jP27qHbeJtFiHpX */
 
-.color-primary-0 { color: #7793AE }
-.color-primary-1 { color: #C2D0DE }
-.color-primary-2 { color: #9DB3C8 }
-.color-primary-3 { color: #587999 }
-.color-primary-4 { color: #3E6386 }
+/* 
+.color-base { color: #7793AE; } // Main Primary color
+.color-base-lightest { color: #D8E2Ec; }
+.color-base-lighter { color: #9DB3C8; }
+.color-base-darker { color: #4F7192; }
+.color-base-darkest { color: ##235275; }
+
+.color-base-complement { color: #FFDCA8; }
+.color-lightest-complement { color: #FFF6E8; }
+.color-light-complement { color: #FFEACB; }
+.color-darker-complement { color: #E1B372; }
+.color-darkest-complement { color: #B5843E; }
+*/
 
 
+body {
+    background-image: url("swirled-tile-200w.png");
+    background-repeat: repeat-y;
+    background-color: #7793AE;
 
-.button {
-    background-color: #99ccff;
-    border: none;
+    padding-left: 150px;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #235275;
+}
+
+input {
+    outline: none;
+    box-sizing: border-box;
+
+    padding: 8px;
+
+    border: 4px solid color-base-darker;
+    border-color: #235275;
+    border-radius: 4px;
+
+    color: #235275;
+    background-color: #D8E2Ec;
+
+
+    font-size: 18px;
+
+}
+
+input:focus {
+    border: 4px solid color-base-darkest;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+
+    display: inline-block;
+
+    border: none; 
     border-radius: 8px;
-    color: white;
-    padding: 10px 20px;
+
+    background-color: #4F7192;
+    color: #D8E2Ec;
+
+    padding: 20px 20px;
+
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 20px;
 }
-.button:hover{
-    background-color: #5588bb;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+button:hover{
+    background-color: #235275;
+    color: #D8E2Ec;
 }
+button:active{
+    transform: translateY(2px);
+}
+
+
+
+
+
 
