@@ -1,4 +1,13 @@
-<style>
+
+
+.color-primary-0 { color: #7793AE }
+.color-primary-1 { color: #C2D0DE }
+.color-primary-2 { color: #9DB3C8 }
+.color-primary-3 { color: #587999 }
+.color-primary-4 { color: #3E6386 }
+
+
+
 .button {
     background-color: #99ccff;
     border: none;
@@ -22,4 +31,3 @@
     font-size: 20px;
 }
 
-</style>
