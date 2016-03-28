@@ -15,24 +15,33 @@
 .color-darkest-complement { color: #B5843E; }
 */
 
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
 
 body {
     background-image: url("swirled-tile-200w.png");
     background-repeat: repeat-y;
     background-color: #7793AE;
 
-    padding-left: 150px;
+    padding: 10px 10px 10px 160px ;
     
     font-family: sans-serif;
     font-weight: bold;
     color: #235275;
+}
+p {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 input {
     outline: none;
     box-sizing: border-box;
 
-    padding: 8px;
+    padding: 4px;
 
     border: 4px solid color-base-darker;
     border-color: #235275;
@@ -40,15 +49,17 @@ input {
 
     color: #235275;
     background-color: #D8E2Ec;
+    margin-bottom: 10px;
+    
+    width: 80px;
 
+    font-size: 30px;
+    font-weight: bold;
 
-    font-size: 18px;
+    text-align: center;
 
 }
 
-input:focus {
-    border: 4px solid color-base-darkest;
-}
 
 button {
     cursor: pointer;
@@ -62,7 +73,7 @@ button {
     background-color: #4F7192;
     color: #D8E2Ec;
 
-    padding: 20px 20px;
+    padding: 10px 20px;
 
     text-align: center;
     text-decoration: none;
