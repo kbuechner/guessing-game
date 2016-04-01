@@ -35,7 +35,10 @@ body {
 p {
     padding-top: 10px;
     padding-bottom: 10px;
+    max-width: 500px
 }
+
+/*the input box!!*/
 
 input {
     outline: none;
@@ -44,13 +47,11 @@ input {
     padding: 5px 5px 5px 5px;
 
     border: 3px solid #4F7192;
-    border-radius: 20px;
+    border-radius: 20px 5px;
 
     color: #235275;
     background-color: #D8E2Ec;
     margin-bottom: 10px;
-    
-
 
     font-size: 30px;
     font-weight: bold;
@@ -61,6 +62,8 @@ input {
 input:focus {
     border: 3px solid #235275;
 }
+
+/* buttons!*/
 
 button {
     cursor: pointer;
@@ -81,25 +84,33 @@ button {
 
     font-size: 20px;
 }
-.button2 {
+button:hover{
+    background-color: #235275;
+    color: #D8E2Ec;
+}
 
+button:active{
+    transform: translateY(1px);
+}
+
+.button1 {  
+
+}
+
+.button2 {
     background-color: #D8E2Ec;
     color: #4F7192;
 
     font-size: 20px;
 }
+
 .button2:hover{
     background-color: #9DB3C8;
     color: #D8E2Ec;
 }
 
-button:hover{
-    background-color: #235275;
-    color: #D8E2Ec;
-}
-button:active{
-    transform: translateY(1px);
-}
+
+
 
 
 
